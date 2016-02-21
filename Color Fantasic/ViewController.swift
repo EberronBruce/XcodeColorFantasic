@@ -41,6 +41,16 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         cell.backgroundColor = self.colors[indexPath.row]
         return cell
     }
+    
+    //This function is called when the user selects a row. It goes to the color view controller
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        print("table row select")
+        //Unselects the selected cell
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        //Performes the transition using the segue to next view controller
+        self.performSegueWithIdentifier("colorSegue", sender: self)
+    }
 
 
 }
