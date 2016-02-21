@@ -66,10 +66,10 @@
             </objects>
             <point key="canvasLocation" x="510" y="337"/>
         </scene>
-        <!--View Controller-->
+        <!--Color View Controller-->
         <scene sceneID="XyN-Sn-Z26">
             <objects>
-                <viewController id="guF-Ou-sK3" sceneMemberID="viewController">
+                <viewController id="guF-Ou-sK3" customClass="ColorViewController" customModule="Color_Fantasic" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LTQ-JO-7HN"/>
                         <viewControllerLayoutGuide type="bottom" id="WDf-xk-UZf"/>
@@ -77,7 +77,21 @@
                     <view key="view" contentMode="scaleToFill" id="d8f-hO-ATl">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hk3-6z-NuW">
+                                <rect key="frame" x="10" y="246" width="580" height="108"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="85"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Hk3-6z-NuW" secondAttribute="trailing" constant="10" id="BI6-8J-47O"/>
+                            <constraint firstItem="Hk3-6z-NuW" firstAttribute="centerX" secondItem="d8f-hO-ATl" secondAttribute="centerX" id="I2z-aw-d9L"/>
+                            <constraint firstItem="Hk3-6z-NuW" firstAttribute="centerY" secondItem="d8f-hO-ATl" secondAttribute="centerY" id="n6R-w4-fbG"/>
+                            <constraint firstItem="Hk3-6z-NuW" firstAttribute="leading" secondItem="d8f-hO-ATl" secondAttribute="leading" constant="10" id="zzd-kv-B1k"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ygs-MV-b75" userLabel="First Responder" sceneMemberID="firstResponder"/>

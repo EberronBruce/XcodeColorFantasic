@@ -17,7 +17,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     var selectedColor : UIColor?
     
     //Setting colors
-    let colors : [UIColor] = [UIColor.redColor(), UIColor.blueColor(), UIColor.greenColor(), UIColor.purpleColor(), UIColor(colorLiteralRed: 255/255, green: 0/255, blue: 128/255, alpha: 1.0), UIColor.blackColor()]
+    let colors : [UIColor] = [UIColor.redColor(), UIColor.blueColor(), UIColor.greenColor(), UIColor.purpleColor(), UIColor(colorLiteralRed: 255/255, green: 0/255, blue: 128/255, alpha: 1.0), UIColor.yellowColor()]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,7 +28,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         self.tableView.delegate = self
     }
     
+    //Function is called with the view will appear.
     override func viewWillAppear(animated: Bool) {
+        //This just reloads the tableview
         self.tableView.reloadData()
     }
 
@@ -39,7 +41,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     //This creates the number of rows in the the table view
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return colors.count
+        return self.colors.count
     }
     
     //This creates cells for the table view

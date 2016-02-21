@@ -12,6 +12,7 @@
 		7A9C3B6D1C7A031C006B196B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A9C3B6B1C7A031C006B196B /* Main.storyboard */; };
 		7A9C3B6F1C7A031C006B196B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A9C3B6E1C7A031C006B196B /* Assets.xcassets */; };
 		7A9C3B721C7A031C006B196B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A9C3B701C7A031C006B196B /* LaunchScreen.storyboard */; };
+		7A9C3B7A1C7A1993006B196B /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9C3B791C7A1993006B196B /* ColorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7A9C3B6E1C7A031C006B196B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A9C3B711C7A031C006B196B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A9C3B731C7A031C006B196B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A9C3B791C7A1993006B196B /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				7A9C3B671C7A031C006B196B /* AppDelegate.swift */,
 				7A9C3B691C7A031C006B196B /* ViewController.swift */,
+				7A9C3B791C7A1993006B196B /* ColorViewController.swift */,
 				7A9C3B6B1C7A031C006B196B /* Main.storyboard */,
 				7A9C3B6E1C7A031C006B196B /* Assets.xcassets */,
 				7A9C3B701C7A031C006B196B /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A9C3B6A1C7A031C006B196B /* ViewController.swift in Sources */,
+				7A9C3B7A1C7A1993006B196B /* ColorViewController.swift in Sources */,
 				7A9C3B681C7A031C006B196B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
