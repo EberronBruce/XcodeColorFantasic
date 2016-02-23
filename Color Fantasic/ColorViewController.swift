@@ -32,6 +32,13 @@ class ColorViewController: UIViewController {
             self.colorLabel.text = "PINK"
         }else if self.view.backgroundColor == UIColor.yellowColor(){
             self.colorLabel.text = "YELLOW"
+        }else if self.view.backgroundColor == UIColor.whiteColor(){
+            self.colorLabel.text = "WHITE"
+        }else if self.view.backgroundColor == UIColor.blackColor(){
+            self.colorLabel.text = "BLACK"
+            self.colorLabel.textColor = UIColor.whiteColor()
+        }else if self.view.backgroundColor == UIColor.orangeColor(){
+            self.colorLabel.text = "ORANGE"
         }
 
     }

@@ -17,7 +17,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     var selectedColor : UIColor?
     
     //Setting colors
-    let colors : [UIColor] = [UIColor.redColor(), UIColor.blueColor(), UIColor.greenColor(), UIColor.purpleColor(), UIColor(colorLiteralRed: 255/255, green: 0/255, blue: 128/255, alpha: 1.0), UIColor.yellowColor()]
+    let colors : [UIColor] = [UIColor.redColor(), UIColor.blueColor(), UIColor.greenColor(), UIColor.purpleColor(), UIColor(colorLiteralRed: 255/255, green: 0/255, blue: 128/255, alpha: 1.0), UIColor.yellowColor(),UIColor.whiteColor(),UIColor.blackColor(),UIColor.orangeColor()]
     
     override func viewDidLoad() {
         super.viewDidLoad()
